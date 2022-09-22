@@ -1,0 +1,62 @@
+{
+    "manifestVersion": 1,
+    "id": "packagesconfigmerger",
+    "name": "Packages Config Merger",
+    "version": "1.0.4",
+    "author": "Alexander Schmid",    
+    "description": "Allows the merging of a huge amount of packages.config across folders to only one.",
+    "license": "MIT",
+    "publisher": "AlexanderSchmid",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "links": {
+        "github": { "uri": "https://github.com/DurtyFree" }
+    },
+    "tags": [
+        "nuget",
+        "nuget-powertool",
+        "PackagesConfigMerger",
+        "versioning",
+        "merger",
+        "merging",
+        "build",
+        "packages",
+        "packages.config",
+        "optimization"
+    ],
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "icons": {
+        "default": "images/Logo.png"        
+    },
+    "CustomerQnASupport": {
+        "enableqna":"true"
+    },
+    "files": [
+        {
+            "path": "PackagesConfigMerger"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "PackagesConfigMerger",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "PackagesConfigMerger"
+            }
+        }
+    ]
+}
