@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "packagesconfigmerger",
     "name": "Packages Config Merger",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "author": "Alexander Schmid",    
     "description": "Allows the merging of a huge amount of packages.config across folders to only one.",
     "license": "MIT",
@@ -17,17 +17,14 @@
         "Azure Pipelines"
     ],
     "links": {
-        "github": { 
-            "uri": "https://github.com/DurtyFree" 
-        },
         "repository": {
             "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger"
         },
         "issues": {
             "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger/issues"
         },
-        "support": {
-            "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger"
+        "license": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger/blob/main/LICENSE"
         }
     },
     "repository": {
