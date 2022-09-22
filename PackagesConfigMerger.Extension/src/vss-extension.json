@@ -17,7 +17,22 @@
         "Azure Pipelines"
     ],
     "links": {
-        "github": { "uri": "https://github.com/DurtyFree" }
+        "github": { 
+            "uri": "https://github.com/DurtyFree" 
+        },
+        "repository": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger"
+        },
+        "issues": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger/issues"
+        },
+        "support": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger"
+        }
+    },
+    "repository": {
+      "type": "git",
+      "uri": "https://github.com/DurtyFree/Azure.DevOps.PackagesConfigMerger"
     },
     "tags": [
         "nuget",
@@ -39,6 +54,11 @@
     "icons": {
         "default": "images/Logo.png"        
     },
+    "screenshots": [
+        {
+            "path": "images/screen.png"
+        }
+    ],
     "CustomerQnASupport": {
         "enableqna":"true"
     },
